@@ -1,1 +1,6 @@
+channels:
+    jwood-ana-org: test
+
+upload_without_merge: true
+
 aggregate_check: false
