@@ -1,15 +1,15 @@
 package:
-  name: prefect-test-dependency
+  name: pbp-test
   version: 1.0
 source:
   path: ../src
 build:
-  number: 34
+  number: 0
 about:
-  home: https://github.com/AnacondaRecipes/prefect-test-dependency-feedstock
+  home: https://github.com/AnacondaRecipes/pbp-test-feedstock
   license_file: LICENSE
   license: BSD-3-Clause
   license_family: BSD
 extra:
   recipe-maintainers:
-    - dkomisar
+    - ansthomas
