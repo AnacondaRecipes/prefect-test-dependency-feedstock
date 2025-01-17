@@ -4,7 +4,7 @@ package:
 source:
   path: ../src
 build:
-  number: 431
+  number: 432
 about:
   home: https://github.com/AnacondaRecipes/pbp-test-feedstock
   license_file: LICENSE
