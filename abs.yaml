@@ -1,2 +1,3 @@
+upload_channels: [pbp-testing]
 aggregate_check: false
 pbp_autopublish: true
