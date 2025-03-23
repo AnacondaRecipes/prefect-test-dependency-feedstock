@@ -1,3 +1,5 @@
 upload_channels: [pbp-testing]
 aggregate_check: false
 pbp_autopublish: true
+pbp_only_deployment: pre-prod
+
