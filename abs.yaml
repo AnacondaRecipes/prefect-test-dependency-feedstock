@@ -1,3 +1,10 @@
 upload_channels: [pbp-testing]
 aggregate_check: false
 pbp_autopublish: true
+pbp_only_deployment: pre-prod
+# Don't depend on MacOS or Linux-s390x - speedier results
+use_prefect_platforms:
+    - linux-64
+    - linux-aarch64
+    - win-64
+
