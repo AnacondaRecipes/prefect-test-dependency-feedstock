@@ -4,7 +4,7 @@ package:
 source:
   path: ../src
 build:
-  number: 289
+  number: 290
 about:
   home: https://github.com/AnacondaRecipes/prefect-test-dependency-feedstock
   license_file: LICENSE
