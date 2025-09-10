@@ -1,10 +1,10 @@
 package:
   name: pbp-test
-  version: 1.0
+  version: 1.1
 source:
   path: ../src
 build:
-  number: 569
+  number: 570
 about:
   home: https://github.com/AnacondaRecipes/pbp-test-feedstock
   license_file: LICENSE
