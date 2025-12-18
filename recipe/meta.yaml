@@ -5,11 +5,28 @@ source:
   path: ../src
 build:
   number: 427
+  number: 9
+
+test:
+  commands:
+    - echo success
+
+requirements:
+  build:
+    prefect-test-dependency
+  run:
+    prefect-test-dependency
+
 about:
   home: https://github.com/AnacondaRecipes/prefect-test-dependency-feedstock
   license_file: LICENSE
   license: BSD-3-Clause
   license_family: BSD
+  description: This is a simple test feedstock for PBP
+  summary: Test feedstock for PBP
+  doc_url: https://github.com/AnacondaRecipes/prefect-test-build-feedstock
+  dev_url: https://github.com/AnacondaRecipes/prefect-test-build-feedstock
+
 extra:
   recipe-maintainers:
     - dkomisar
