@@ -10,6 +10,7 @@ about:
   license_file: LICENSE
   license: BSD-3-Clause
   license_family: BSD
+
 extra:
   recipe-maintainers:
     - dkomisar
