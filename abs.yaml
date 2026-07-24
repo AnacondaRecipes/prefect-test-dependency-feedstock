@@ -2,6 +2,10 @@ upload_channels: [ad_package_build]
 aggregate_check: false
 pbp_autopublish: true
 pbp_only_deployment: pre-prod
+# Force 100% graph submission so this QA feedstock always generates a pre-prod
+# graph on PR open (overrides the 10% pre-prod downsampling from
+# anaconda/package-build-platform#3334). Required for the graph-generation-via-PR E2E.
+graph_submit_probability: 1
 # Don't depend on MacOS or Linux-s390x - speedier results
 use_prefect_platforms:
     - linux-64
