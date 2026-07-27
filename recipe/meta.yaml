@@ -1,15 +1,43 @@
 package:
   name: prefect-test-dependency
   version: 1.0
+
 source:
   path: ../src
+
 build:
   number: 471
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . -vv"
+
+requirements:
+  host:
+    - python
+    - pip
+  run:
+    - python
+
+test:
+  imports:
+    - prefect_test_dependency
+  commands:
+    - pip check
+  requires:
+    - pip
+
 about:
   home: https://github.com/AnacondaRecipes/prefect-test-dependency-feedstock
-  license_file: LICENSE
   license: BSD-3-Clause
+  license_file: LICENSE
   license_family: BSD
+  summary: A test dependency package for Prefect used in QA automation.
+  description: |
+    This package provides a lightweight test dependency for Prefect-related
+    QA automation workflows at Anaconda. It is not intended for general use
+    and exists to support internal test suites.
+  dev_url: https://github.com/AnacondaRecipes/prefect-test-dependency-feedstock
+  doc_url: https://github.com/AnacondaRecipes/prefect-test-dependency-feedstock
+
 extra:
   recipe-maintainers:
-    - dkomisar
+    - QA
