@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prefect-test-dependency"
+version = "1.0"
+description = "A test dependency package for Prefect used in QA automation."
+requires-python = ">=3.9"
+license = { text = "BSD-3-Clause" }
+
+[tool.setuptools]
+packages = ["prefect_test_dependency"]
