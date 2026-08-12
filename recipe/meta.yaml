@@ -6,7 +6,7 @@ source:
   path: ../src
 
 build:
-  number: 486
+  number: 487
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --no-build-isolation -vv"
 
